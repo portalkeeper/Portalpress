@@ -1,0 +1,725 @@
+// Global Foundation Settings
+
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+// @import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+@import "foundation/components/global"; // *always required
+@import "foundation/components/grid";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+@import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+@import "compass/css3/transition";
+@import "compass/css3/box-shadow";
+
+
+.issue-cover {
+  @include grid-row();
+  background-color: white;
+  position: relative;
+  min-height: 480px;
+}
+
+.main-logo {
+  padding: 23px 23px 23px 107px;
+  margin-top: 15px;
+  background: rgba( #4F3269, 0.5) url("/img/tdd-header-logo.png") no-repeat 23px center;
+  display: inline-block;
+}
+
+.main-logo h1 { font-size: 20px; color: white; text-transform: uppercase; }
+.main-logo h1 a { color: white; }
+
+.social-bar {
+  position: absolute;
+  right:  23px;
+  top: 23px;
+  color: white;
+  overflow: hidden; 
+  list-style-type: none;
+}
+
+.social-bar li { float: left; margin-right: 9px; }
+.social-bar a { 
+  display: block;
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  background-color: #312042;
+  color: #7E51A7;
+  text-align: center;
+  line-height: 0.95;
+  @include transition-property(color);
+  @include transition-duration(0.5s);
+}
+
+.social-bar a:hover { color: white; }
+.social-bar i {
+  margin-top: 10px;
+}
+.social-bar__rss, .social-bar__tw, .social-bar__fb {
+  font-family: "FontAwesome";
+  font-size: 20px;
+}
+.social-bar__adn {
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.issue-cover__headline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.issue-cover__title {
+  background-color: rgba( #4F3269, 0.7 );
+  width:100%;
+  a { 
+    display: block;
+    padding: 23px;
+    &:hover { @include box-shadow(rgba(black, 0.15) 0 0 10px 10px inset); }
+  }
+}
+
+.numbers-box { position: relative; overflow: hidden; }
+.number-links {
+  display: inline-block;
+  float: right;
+  background: rgba( #4F3269, 0.5);
+  font-size: 21px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 18px 23px 13px 23px;
+  color: white;
+}
+.number-links li { display: inline-block; }
+.number-links__prev a, .number-links__next a {
+  text-indent: -10000px;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+  
+.number-links__prev { background: url(/img/prev-issue.png) no-repeat top center; }
+.number-links__next { background: url(/img/next-issue.png) no-repeat top center; }
+.number-links__current { padding: 0 23px; }
+.number-links a { color: white; }
+.issue-cover__title * { color: white; }
+.issue-cover__title h2 { font-size: 44px; }
+.issue-cover__title p { font-size: 24px; }
+
+.cover-articles, .about-tdd, .site-nav, .copyright {
+  @include grid-row();
+}
+
+.cover-article * { color: white }
+.cover-article h2 { margin-bottom: 7px; }
+.long-cover-article {
+  @include grid-column(7);
+  background-color: #452C5C;
+}
+
+.short-cover-article {
+  @include grid-column(5);
+  background-color: #312042;
+}
+
+.cover-article { 
+  height: 212px;
+  list-style-type: none;
+  &.c1 { background-color: #4F3269; }
+  &.c2 { background-color: #312042; }
+  &.c3 { background-color: #452C5C; }
+  &.c4 { background-color: rgba(#4F3269, 0.9); }
+  &.c5 { background-color: #7B458D; }
+  &.c6 { background-color: #7E51A7; }
+}
+
+.cover-article a { 
+  display: block;
+  width: 100%; 
+  height: 100%;
+  padding: 23px;
+ }
+.cover-article a { 
+  background: rgba($primary-color, 0.7);
+  @include transition-property(background-color);
+  @include transition-duration(0.5s);
+}
+.cover-article a:hover { 
+  background: rgba($primary-color, 0.5);
+  @include box-shadow(rgba(black, 0.15) 0 0 10px 10px inset); 
+}
+.about-tdd {
+  @include grid-row();
+  font-size: 16px;
+  color: #949494;
+}
+
+.about-tdd p {
+  @include grid-column(8, false, true);
+  line-height: 1.19;
+  padding: 23px 23px 23px 50px;
+  background: url("/img/about-tdd-logo.png") no-repeat left center;
+}
+
+.about-tdd a { 
+  color: #333; 
+  font-weight: 800;
+  @include transition-property(color);
+  @include transition-duration(0.5s);
+}
+.about-tdd a:hover { color: #949494; }
+
+.site-nav { 
+  @include grid-row(); 
+  border-top: 1px solid rgba(#4D7986, 0.3);
+}
+
+.site-nav.site-nav-color-blue a {
+  color: #4D7986;
+}
+
+.site-nav.site-nav-color-blue .site-nav__current a {
+  color: #192D40;
+}
+
+.site-nav ul { 
+  list-style-type: none;
+  @include grid-column(8, false, true);
+  border-bottom: 1px solid rgba(#4D7986, 0.3);
+  text-align: center;
+}
+
+.site-nav li {
+  display: inline-block;
+}
+
+.site-nav a {
+  color: #4F3269;
+  font-family: "OpenSans";
+  font-size: 32px;
+  font-weight: 700;
+  @include transition-property(color);
+  @include transition-duration(0.5s);
+}
+
+.site-nav.footer a {
+  font-family: "Vollkorn";
+}
+
+.site-nav a:hover { color: #7B458D; }
+
+.site-nav.site-nav-color-blue a:hover { color: #192D40; }
+
+.site-nav__about {
+  border-right: 1px solid rgba(#4D7986, 0.3);
+  border-left: 1px solid rgba(#4D7986, 0.3);
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.site-nav__season { padding-right: 10px; padding-left: 16px; }
+.site-nav__follow { padding-left: 10px; padding-right: 16px; }
+
+.site-nav__current  a { color: #7B458D; }
+
+.copyright {
+  text-align: center;
+  color: #949494;
+  font-size: 16px;
+  padding: 23px;
+}
+.copyright a { 
+  color: #949494;
+  border-bottom: 1px solid #949494;
+  padding-bottom: 1px;
+  @include transition-property(color);
+  @include transition-duration(0.5s);
+}
+
+.copyright a:hover { color: #333; }
+
+.has-thumbnail-cover-article {  background-size: auto 100% !important }
+
+
+/* Story page */
+
+.story {
+  @include grid-row();
+  background-color: white;
+}
+
+.story-cover {
+  position: relative;
+  color: white;
+  h1 {
+    font-size: 24px;
+    font-weight: 800;
+    a { color: white; }
+  }
+  h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+  }
+}
+
+.story-cover__headline {
+  background: rgba(#4F3269, 0.7) url("/img/tdd-header-logo.png") no-repeat 80px center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 23px 23px 23px 177px;
+}
+
+.story-about {
+  background-color: rgba(#4F3269, 0.7);
+  padding: 23px 23px 23px 177px;
+  p {
+    color: white;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+}
+
+.by-line { font-style: italic; }
+
+.story-content {
+  padding: 105px 0;
+  font-size: 28px;
+  p {
+    margin: 0 80px 65px;
+  }
+  a {
+    color: #4F3269;
+    font-weight: 700;
+    text-decoration: underline;
+    @include transition-property(color);
+    @include transition-duration(0.5s);
+  }
+  a:hover {
+    color: #7B458D;
+  }
+  .by-line { 
+    text-align: center;
+    padding-bottom: 100px;
+    background: url("/img/story-content-logo.png") no-repeat bottom center;
+    margin-bottom: 0;
+  }
+}
+.story-content__img-title {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #959595;
+  text-align: right;
+  margin: 0 15px 65px!important;
+}
+
+.story-intro {
+  font-size: 36px;
+  line-height: 48px;
+  color: #4C4C4C;
+  strong { color: $primary-color; font-weight: 700; }
+}
+
+.back-home {
+  text-align: center;
+  padding: 30px 23px;
+  border-top: 1px solid rgba(#4D7986, 0.3);
+  border-bottom: 1px solid rgba(#4D7986, 0.3);
+}
+.back-home a {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.story.page-about {
+  background-color: transparent;
+  position: relative;
+  .story-cover h1 {
+    position: absolute;
+    width: 100%;
+    a {
+      position: relative;
+      left: 0;
+      top: 0;
+      margin: 23px auto;
+      display: block;
+    }
+  }
+}
+
+.story-content .right {
+  padding: 0 0 23px 23px;
+}
+.story-content .left {
+  padding: 23px 23px 0 0 ;
+}
+
+.contact-button {
+  text-align: center;
+  padding: 30px 23px;
+  border-top: 1px solid rgba(#4D7986, 0.3);
+  text-align: center;
+  table {
+    width: 70%;
+    margin: 0 auto;
+    .icon { text-align: right; font-size: 110px; line-height: 1; }
+    p { text-align: left; font-size: 48px;  line-height: 1;}
+  
+  }
+}
+.contact-button a {
+  font-family: "Vollkorn", Georgia, serif;
+  font-weight: 800;
+  color: #4F3269;
+}
+
+/* Follow page animations */
+.animated{
+  -webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }	50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+@-moz-keyframes pulse {
+    0% { -moz-transform: scale(1); }	
+	50% { -moz-transform: scale(1.1); }
+    100% { -moz-transform: scale(1); }
+}
+@-o-keyframes pulse {
+    0% { -o-transform: scale(1); }	
+	50% { -o-transform: scale(1.1); }
+    100% { -o-transform: scale(1); }
+}
+@keyframes pulse {
+    0% { transform: scale(0.1); }	
+	50% { transform: scale(2.1); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-o-animation-name: pulse;
+	animation-name: pulse;
+}
+
+.diamond {
+  text-align: center;
+  margin: 15px auto;
+  position: relative;
+}
+
+.logo-diamond {
+  text-indent: -10000px;
+  position: absolute;
+  left: 35px;
+  top: 15px;
+  width: 72px;
+  height: 72px;
+  z-index: 1000;
+  background: url("/img/logo-diamond.png") no-repeat top left;
+}
+
+.diamond .social-bar { position: relative; overflow: visible; }
+
+.diamond a {
+  position: absolute;
+  background: transparent;
+  color: #EDF1F3;
+  display: block;
+  border-radius: 0;
+  @include transition-property(all);
+  @include transition-duration(0.9s);
+}
+
+.diamond .social-bar__adn {
+  top: -18px;
+  left: 290px;
+  width: 270px;
+  height: 135px;
+  font-size: 18px;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 0 135px 135px 135px;
+  border-color: transparent transparent #192D40 transparent;
+  strong { 
+    margin-left: -31px; 
+    display: block;
+    margin-top: 25px;
+  }
+  span { font-size: 73px; font-weight: 700; padding-left: 10px; }
+  &:hover {
+    color: #192D40;
+    border-color: transparent transparent #FFF transparent;
+  }
+}
+
+
+.diamond .social-bar__rss {
+  top: 496px;
+  left: 290px;
+  width: 270px;
+  height: 135px;
+  font-size: 18px;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 135px 135px 0 135px;
+  border-color: #192D40 transparent transparent  transparent;
+  strong { 
+    margin-left: -31px; 
+    display: block;
+    margin-top: -130px;
+  }
+  i { font-size: 53px; font-weight: 700;}
+  span { padding-left: 15px; }
+  &:hover {
+    color: #192D40;
+    border-color: transparent transparent #FFF transparent;
+  }
+}
+
+.diamond .social-bar__tw {
+  top: 172px;
+  left: 100px;
+  width: 135px;
+  height: 270px;
+  font-size: 18px;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 135px 135px 135px 0;
+  border-color: transparent #192D40 transparent  transparent;
+  i { 
+    font-size: 40px; 
+    font-weight: 700;
+    display: block;
+    margin: -20px 0 0 66px;
+  }
+  &:hover {
+    color: #192D40;
+    border-color: transparent #FFF transparent transparent;
+  }
+}
+
+.diamond .social-bar__fb {
+  top: 172px;
+  right: 50px;
+  width: 135px;
+  height: 270px;
+  font-size: 18px;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 135px 0 135px 135px;
+  border-color: transparent transparent  transparent #192D40;
+  i { 
+    font-size: 40px; 
+    font-weight: 700;
+    display: block;
+    margin: -20px 0 0 -117px;
+  }
+  &:hover {
+    color: #192D40;
+    border-color: transparent transparent transparent #FFF;
+  }
+}
+
+
+.diamond .social-bar__follow {
+  top: 170px;
+  left: 287px;
+  width: 276px;
+  height: 276px;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 131px;
+  color: #192D40;
+  background: url("/img/diamond-heart.png") no-repeat center center;
+  &:hover {
+    color: #000;
+    border-color: transparent transparent transparent #FFF;
+  }
+}
+
+.panel-subscribe {
+  padding: 50px 70px;
+  border: 2px solid  rgba( #192D40, 0.6) ;
+  font-size: 28px;
+  line-height: 1.53;
+  color: #192D40;
+  margin-bottom: 115px;
+  a { font-weight: 700; }
+}
+
+
+
+/* Season page */
+
+.page-container {
+  @include grid-row;
+  position: relative;
+}
+
+.social-bar-color-light a {
+  color: #4D7986;
+  background-color: white;
+  &:hover { background-color: #4D7986; }
+}
+
+.main-logo.main-logo-color-dark {
+  background: transparent url("/img/main-logo-color-dark.png") no-repeat 23px center;
+  a { color: #395D73; }
+}
+
+.numbers-box.numbers-box-color-light {
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.numbers-box.numbers-box-color-light {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.numbers-box.numbers-box-color-light .number-links {
+  float: none;
+  background: transparent;
+  color: #4D7986;
+  .number-links__prev { background: url(/img/prev-season.png) no-repeat top center; }
+  .number-links__next { background: url(/img/next-season.png) no-repeat top center; }
+}
+
+.season-calendar td { 
+  width: 110px;
+}
+
+.season-calendar thead {
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #969696;
+  td { 
+    border-top: none;
+  }
+}
+
+.season-calendar td {
+  border: 1px solid #C9C9C9;
+  padding: 5px 8px 10px 8px;
+  vertical-align: top;
+}
+
+.issue-cell * {
+  font-family: "Vollkorn", Georgia, serif;
+}
+
+.issue-cell-color-orange {
+  background-color: #F1EFE6;
+  .issue-cell__date {
+    color: #c9620a;
+  }
+}
+.issue-cell-color-blue {
+  background-color: rgba( #395D73, 0.05);
+  .issue-cell__date {
+    color: #144D7C;
+  }
+}
+
+.issue-cell-color-red {
+  background-color: #EFE8E8;
+  .issue-cell__date {
+    color: #A23B30;
+  }
+}
+.issue-cell.issue-cell-today {
+  background-color: white !important;
+  .issue-cell__date i {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+.issue-cell__date {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+
+.issue-cell__number {
+  color: #666;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+  a {  color: #666; }
+  a:hover {  color: #000; }
+}
+
+.issue-cell__title {
+  color: #666;
+  font-size: 14px;
+  font-weight: normal;
+  a {  color: #666; }
+  a:hover {  color: #000; }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .site-nav a { font-size: 20px; }
+  .story-cover {
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+  }
+  .story-about { padding-left: 80px; font-size: 20px; }
+  .back-home a { font-size: 23px; }
+  .social-bar { visibility: hidden; }
+}
+
+

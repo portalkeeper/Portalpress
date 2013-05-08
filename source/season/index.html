@@ -1,0 +1,179 @@
+---
+layout: blank
+title: Blog Archive
+footer: false
+---
+{% include head.html %}
+
+<body class="page">
+  <div class="page-container">
+
+    <div class="main-logo main-logo-color-dark">
+      <h1><a href="/">The Daily Portal</a></h1>
+    </div>
+
+    <ul class="social-bar social-bar-color-light">
+      <li><a href="#" class="social-bar__rss"><i class="icon-rss"></i></a></li>
+      <li><a href="https://app.net/thedailyportal" class="social-bar__adn">α</a></li>
+      <li><a href="https://twitter.com/thedailyportal" class="social-bar__tw"><i class="icon-twitter"></i></a></li>
+      <li><a href="https://facebook.com/thedailyportal" class="social-bar__fb"><i class="icon-facebook-sign"></i></a></li>
+    </ul>
+    <div>
+      <div id="blog-archives">
+        <center><h1>First preseason</h1>
+        <a href="/post/2013/05/07/about-the-preseason/"><em>(about the preseason)</em></a></center>
+        {% for page in site.pages reverse %}
+          {% if page.layout == 'issue' and page.title %}
+          {% capture this_month %}{{ page.date | date: "%b" }}{% endcapture %}
+          {% unless month == this_month %}
+            {% assign month = this_month %}
+            <h2>{{ this_month }}</h2>
+          {% endunless %}
+          <article>
+            {% capture category %}{{ page.categories | size }}{% endcapture %}
+            <h1><a href="{{ root_url }}{{ page.url }}">{{page.title}}</a></h1>
+            <time datetime="{{ page.date | datetime}}" pubdate>{{ page.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+            {% if category != '0' %}
+            <footer>
+              <span class="categories">posted in {{ page.categories | category_links }}</span>
+            </footer>
+            {% endif %}
+          </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <!--
+    <div class="numbers-box numbers-box-color-light">
+      <ul class="number-links">
+        <li class="number-links__prev"><a href="#">Previous Issue</a></li>
+        <li class="number-links__current">Season 1 <i>(March 2nd, 2013 - May 30th, 2013)</i></li>
+        <li class="number-links__next"><a href="#">Next Issue</a></li>
+      </ul>
+    </div>
+
+    <table class="season-calendar">
+      <thead>
+        <tr>
+          <td>Monday</td>
+          <td>Tuesday</td>
+          <td>Wednesday</td>
+          <td>Thursday</td>
+          <td>Friday</td>
+          <td>Saturday</td>
+          <td>Sunday</td>
+        </tr>
+      </thead>
+      <tr>
+        <td class="issue-cell issue-cell-color-orange">
+          <h5 class="issue-cell__date">26 April</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-orange">
+          <h5 class="issue-cell__date">27 April</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-orange issue-cell-today">
+          <h5 class="issue-cell__date">28 <i>Today</i></h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-orange">
+          <h5 class="issue-cell__date">29 April</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+          <h2 class="issue-cell__title"><a href="story.html">University of Toronto Phisics Lab</a></h2>
+        </td>
+        <td class="issue-cell issue-cell-color-orange">
+          <h5 class="issue-cell__date">30 April</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+          <h2 class="issue-cell__title"><a href="story.html">University of Toronto Phisics Lab</a></h2>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">01 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">02 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">03 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">04 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">05 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">06 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+          <h2 class="issue-cell__title"><a href="story.html">University of Toronto Phisics Lab</a></h2>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">07 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+          <h2 class="issue-cell__title"><a href="story.html">University of Toronto Phisics Lab</a></h2>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">08 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">09 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">03 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">04 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-blue">
+          <h5 class="issue-cell__date">05 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-red">
+          <h5 class="issue-cell__date">06 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+          <h2 class="issue-cell__title"><a href="story.html">University of Toronto Phisics Lab</a></h2>
+        </td>
+        <td class="issue-cell issue-cell-color-red">
+          <h5 class="issue-cell__date">07 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+          <h2 class="issue-cell__title"><a href="story.html">University of Toronto Phisics Lab</a></h2>
+        </td>
+        <td class="issue-cell issue-cell-color-red">
+          <h5 class="issue-cell__date">08 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+        <td class="issue-cell issue-cell-color-red">
+          <h5 class="issue-cell__date">09 May</h5>
+          <h3 class="issue-cell__number"><a href="index.html">Issue 24</a></h3>
+        </td>
+      </tr>
+
+
+    </table>
+    <div class="numbers-box numbers-box-color-light numbers-box-below">
+      <ul class="number-links">
+        <li class="number-links__prev"><a href="#">Previous Issue</a></li>
+        <li class="number-links__current">Season 1 <i>(March 2nd, 2013 - May 30th, 2013)</i></li>
+        <li class="number-links__next"><a href="#">Next Issue</a></li>
+      </ul>
+    </div>
+  </div>
+  -->
+  {% assign nav_class = 'site-nav-color-blue' %}
+  {% include footer.html %}
+</body>

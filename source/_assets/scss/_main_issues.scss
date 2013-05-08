@@ -1,0 +1,57 @@
+body {
+    font-family: $baseFontFamily;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $altFontFamily;
+}
+
+$heading_color: darken($white, 5%);
+
+.issue-block {
+    @extend .hero-unit;
+    padding: 20px;
+    margin-bottom: 0;
+    height: 200px;
+    @include border-radius(0);
+    color: $heading_color;
+}
+
+.first .issue-block {
+    height: 150px;
+    padding-top: 150px;
+}
+
+.issue-block {
+    h1, h2, h3, h4 {
+        a {
+            color: $heading_color;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+
+$color_3: #1A2D3F;
+$color_1: #4E7988;
+$color_2: #8199A5;
+
+.block-color-1 {
+    background-color: $color_1;
+}
+
+.block-color-2 {
+    background-color: $color_2;
+}
+
+.block-color-3 {
+    background-color: $color_3;
+}
+
+.body .awesome {
+    color: pink;
+}

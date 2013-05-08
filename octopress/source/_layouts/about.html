@@ -1,0 +1,50 @@
+{%include head.html%}
+
+<body>
+  <div class="story page-about">
+    <div class="story-cover">
+      <h1><a href="/" class="logo-diamond">The Daily Portal</a></h1>
+      <img src="/img/about-header.jpg" alt=""></div>
+    <div class="story-content">
+      <p class="story-intro"><strong>THE DAILY PORTAL</strong> is about the future we’re making and what it’s doing to us.</p>
+      <p>Each day’s issue will bring you multimedia stories from the fields of technology, design, science, and art, with a healthy helping of philosophy and spirituality. It’s an experiment in <strong>cosmos journalism</strong>, looking at the world’s very biggest and very smallest stories through the lens of the human beings right  in the middle of it all.</p>
+      <p><img src="/img/about-jon.png" alt="Jon Mitchell" class="right">Your correspondent is 
+      <strong>Jon Mitchell</strong>, a journalist based in Oakland, California. Jon creates multi-week seasons of coverage, stringing together episodes of reporting from far-flung places. You can see the season plan in advance and donate to fund the coverage. The season calendar will show you what’s coming up, and you can browse all the past issues and seasons. At the end of each season, Jon will package up all the issues and make them available as a book.</p>
+      <p>All stories on the site will be available for free. Seasons of The Daily Portal are crowd-funded by readers, so there’s no advertising.</p>
+      <img src="/img/about-hegruber.jpg" alt="">
+      <p></p>
+      <p>The portal concept is inspired by the artist <strong>Harlan Emil Gruber</strong>, who makes resonating portal sculptures for Burning Man and other festivals. After a series of <a href="http://blog.burningman.com/2012/09/tales-from-the-playa/keeping-the-portal/">transformative experiences</a> in Harlan’s portals, Jon was inspired to build The Daily Portal as a journalist’s version of Harlan’s creations, writing stories designed to intensify one’s view of the world.</p>
+      <img src="/img/about-turquoise.jpg" alt="">
+      <p></p>
+      
+  </div>
+
+  <div class="contact-button">
+    <table>
+      <tr>
+        <td class="icon"><a href="index.html"><i class="icon-edit"></i></a></td>
+        <td class="label"><p><a href="index.html">Contact Jon at<br /> The Daily Portal</a></p></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="site-nav">
+    <ul>
+      <li class="site-nav__season"><a href="/season/"><i class="icon-calendar"></i>Season</a></li>
+      <li class="site-nav__about site-nav__current"><a><i class="icon-edit"></i>About</a></li>
+      <li class="site-nav__follow"><a href="/follow/"><i class="icon-rss"></i>Follow</a></li>
+    </ul>
+  </div>
+
+{%include footer.html%}
+
+  <script src='/javascripts/vendor/jquery.js'></script>
+  <script>
+    $(document).ready( function() {
+      $('.logo-diamond').hover( 
+      function() { $(this).toggleClass('animated pulse') });
+
+    });
+  </script>
+
+</body>

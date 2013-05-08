@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[The Daily Portal]]></title>
+  <link href="http://thedailyportal.com/atom.xml" rel="self"/>
+  <link href="http://thedailyportal.com/"/>
+  <updated>2013-05-08T10:29:52-07:00</updated>
+  <id>http://thedailyportal.com/</id>
+  <author>
+    <name><![CDATA[Testy Testerson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+  
+
+</feed>

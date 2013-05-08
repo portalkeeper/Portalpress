@@ -1,0 +1,54 @@
+{%include head.html%}
+
+<body>
+  <div class="story page-about">
+    <h1><a href="index.html" class="logo-diamond">The Daily Portal</a></h1>
+    <div class="diamond">
+      <ul class="social-bar">
+        <li><a href="#" class="social-bar__rss">
+          <strong><i class="icon-rss"></i><br />
+            <span>RSS</span>
+          </strong>
+        </a></li>
+        <li>
+          <a href="#" class="social-bar__adn">
+            <strong><span>α</span><br />
+            App.net
+            </strong>
+        </a>
+
+        </li>
+
+        <li><a href="#" class="social-bar__tw"><i class="icon-twitter"></i></a></li>
+        <li><a href="#" class="social-bar__fb"><i class="icon-facebook-sign"></i></a></li>
+        <li><a class="social-bar__follow">follow</a></li>
+      </ul>
+      <img src="/img/about-main-square.png" alt="">
+    </div>
+    <div class="panel-subscribe">
+      <p><a href="#">Subscribe to the Portalkeeper’s log</a>, a two-way email correspondence with Jon about keeping The Daily Portal and how you can be a part of it.</p>
+    </div>
+
+
+  <div class="site-nav site-nav-color-blue">
+    <ul>
+      <li class="site-nav__season"><a href="/season/"><i class="icon-calendar"></i>Season</a></li>
+      <li class="site-nav__about"><a href="/about/"><i class="icon-edit"></i>About</a></li>
+      <li class="site-nav__follow site-nav__current"><a><i class="icon-rss"></i>Follow</a></li>
+    </ul>
+  </div>
+
+
+ {%include footer.html%}
+
+  </div>
+
+  <script src='/javascripts/vendor/jquery.js'></script>
+  <script>
+    $(document).ready( function() {
+      $('.social-bar__follow, .logo-diamond').hover( 
+      function() { $(this).toggleClass('animated pulse') });
+
+    });
+  </script>
+</body>

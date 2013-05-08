@@ -1,0 +1,25 @@
+{%include head.html%}
+
+<body>
+  <div class="story">
+    <div class="story-cover"><img src="{{ page.image }}" alt="{{ page.title }}" width='800px' height='480px'><div class="story-cover__headline"><h1><a href="/issue/{{ page.issues[0] }}/">The Daily Portal</a></h1>
+      <h2>{{ page.title }}</h2>
+    </div></div>
+    <div class="story-about">
+      <p>{{ page.sub_title }}</p>
+      <p class="by-line">by {{ page.author }}</p>
+    </div>
+    <div class="story-content">
+      <p class="story-intro">{{ page.story_intro }}</p>
+      {{ content | expand_urls: root_url }}
+      <p class="by-line">- {{ page.author }}</p>
+    </div>
+  </div>
+
+  <div class="back-home">
+    <p><a href="/issue/{{ page.issues[0] }}/"><i class="icon-home"></i> Back to Issue</a></p>
+  </div>
+
+  {% include bottom_nav.html %}
+
+</body>

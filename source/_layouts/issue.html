@@ -1,0 +1,60 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    {% assign index = true %}
+    {% assign current_issue = page.issue %}
+    {% assign found_first = false %}
+    {% assign post = site.posts_by_issue[current_issue][0] %}
+    <div class="issue-{{ page.issue }}">
+      <div class="issue-cover" {% if post.image %}style='background-image: url("{{post.image}}"); background-repeat: no-repeat; background-position: top center; background-size: 800px 480px;'{% endif %}>
+        {% include header.html %}
+        <div class="issue-cover__headline">
+          <div class="numbers-box">
+            <ul class="number-links">
+              {% if page.issue != 1 %}
+              <li class="number-links__prev"><a href="/issue/{{ current_issue|minus:'1' }}/">Previous Issue</a></li>
+              {% endif %}
+              <li class="number-links__current"><a href='/issue/{{ current_issue}}/'>Issue {{current_issue}} — <i>{{ page.date_formatted }}</i></a></li>
+              {% if current_issue != site.current_issue and current_issue < site.current_issue %}
+              <li class="number-links__next"><a href="/issue/{{ current_issue|plus:'1' }}/">Next Issue</a></li>
+              {% endif %}
+            </ul>
+          </div>
+          <div class="issue-cover__title post-type-{{ post.post_type }}">
+            <a href="{{ post.url }}">
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.sub_title }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cover-articles yui3-g">
+      {% for post in site.posts_by_issue[current_issue] offset:1 %}
+        {% assign icon_class = '' %}
+        {% if post.post_type == 'audio' %}
+            {% assign icon_class = 'icon-volume-up' %}
+        {% elsif post.post_type == 'video' %}
+            {% assign icon_class = 'icon-video' %}
+        {% elsif post.post_type == 'picture' %}
+            {% assign icon_class = 'icon-picture' %}
+            {% assign background_image = post.image %}
+        {% endif %}
+        <div class="cover-article {% if post.image %}has-thumbnail-cover-article{% endif %} {% cycle 'short-cover-article c1 yui3-u-5-12 m-yui3-u-1', 'long-cover-article c2 yui3-u-7-12 m-yui3-u-1', 'long-cover-article m-yui3-u-1 c3 yui3-u-7-12', 'short-cover-article c4 yui3-u-5-12 m-yui3-u-1' %}" {% if background_image %}style='background-image: url({{post.image}}); background-repeate: no-repeat; background-positon: left top;'{% endif %}>
+          <a href="{{ post.url }}">
+            <h2>
+                {% if icon_class != '' %}
+                <i class="icon {{icon_class}}"></i><br />
+                {% endif %}
+                {{ post.title }}
+            </h2>
+            <p>{{ post.sub_title }}</p>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
