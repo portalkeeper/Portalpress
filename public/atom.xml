@@ -4,15 +4,13 @@
   <title><![CDATA[The Daily Portal]]></title>
   <link href="http://thedailyportal.com/atom.xml" rel="self"/>
   <link href="http://thedailyportal.com/"/>
-  <updated>2013-05-08T10:29:52-07:00</updated>
+  <updated>2013-05-08T15:26:29-07:00</updated>
   <id>http://thedailyportal.com/</id>
   <author>
     <name><![CDATA[Jon Mitchell]]></name>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
-  
-  
-  
+
   <entry>
     <title type="html"><![CDATA[Welcome to the portal]]></title>
     <link href="http://thedailyportal.com/issue/1/"/>
