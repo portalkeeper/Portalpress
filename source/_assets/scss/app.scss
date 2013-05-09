@@ -387,6 +387,12 @@ body {
   color: #959595;
   text-align: right;
   margin: 0 15px 65px!important;
+  a {
+    color: #959595;
+    font-weight: normal;
+    &:hover {
+      color: #666; }
+  }
 }
 
 .story-intro {
@@ -628,7 +634,25 @@ body {
     color: #192D40;
     margin-bottom: 115px;
     a { font-weight: 700; }
+    p.small { 
+      margin-top: 10px;
+      font-size: 14px;
+      a { color: #4D7986; }
+    }
+    input[type="submit"] { 
+      color: white;
+      background: #959595;
+      border: 1px solid rgba(25, 45, 64, 0.6);
+      border-left: 0;
+      height: 45px;
+    }
   }
+  
+  #tlemail {
+    width: 300px;
+    height: 45px;
+    border: 1px solid #666;
+}
 }
 
 @media screen and (max-width: 768px) {
