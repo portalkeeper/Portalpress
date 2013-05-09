@@ -2,12 +2,19 @@ module Jekyll
 
   class DataSorter < Jekyll::Generator
     safe true
-    priority :lowest
+    priority :highest
 
     def initialize(config)
     end
 
     def generate(site)
+      # Returns a datetime if the input is a string
+      def datetime(date)
+        if date.class == String
+          date = Time.parse(date)
+        end
+        date
+      end
       config = site.config
 
       if !config['jekyll_sort']
@@ -21,6 +28,7 @@ module Jekyll
           postHash['url'] ||= post.url
           postHash['content'] ||= post.content
           postHash['date'] ||= post.date
+          postHash['datetime'] ||= datetime(post.date)
           postHash['tags'] ||= post.data.has_key?('tags') ? post.data['tags'] : []
           postHash['sort'] ||= post.data.has_key?('sort') ? post.data['sort'] : 0
           postData.push(postHash)
@@ -65,9 +73,9 @@ module Jekyll
               end
               field.each { |type|
                 if not ans[type]
-                  ans[type] = [post]
+                  ans[type] = [post.to_liquid]
                 else
-                  ans[type] << post
+                  ans[type] << post.to_liquid
                 end
               }
             end

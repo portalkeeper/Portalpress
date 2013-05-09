@@ -7,10 +7,41 @@
   <updated>2013-05-08T10:29:52-07:00</updated>
   <id>http://thedailyportal.com/</id>
   <author>
-    <name><![CDATA[Testy Testerson]]></name>
-    
+    <name><![CDATA[Jon Mitchell]]></name>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
+  
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to the portal]]></title>
+    <link href="http://thedailyportal.com/issue/1/"/>
+    <updated>2013-05-07 20:22</updated>
+    <id>http://thedailyportal.com}/issue/1/</id>
+    <content type="html"><![CDATA[
+        
+        <h3></h3>
+        <h2><a href='http://thedailyportal.com/post/2013/05/07/welcome-to-the-portal'>Welcome to the portal</a></h2>
+        <p>Hi. Come on up. Have a seat.</p>
+        
+        <h3></h3>
+        <h2><a href='http://thedailyportal.com/post/2013/05/07/about-the-preseason'>About the preseason</a></h2>
+        <p><strong>THE DAILY PORTAL</strong> is a seasonal site. The coverage will be planned in seasons that last a month or two, and they'll be pre-announced, so you can see what's in store. That doesn't mean there won't be stories between seasons, though.</p>
+        
+        <h3></h3>
+        <h2><a href='http://thedailyportal.com/post/2013/05/07/the-grand-tour'>The grand tour</a></h2>
+        <p><strong>LET'S GO FOR</strong> a walk around The Daily Portal. It's small. It won't take long.</p>
+        
+        <h3></h3>
+        <h2><a href='http://thedailyportal.com/post/2013/05/07/who-built-this'>Who built this?</a></h2>
+        <p><strong>I ONCE THOUGHT</strong> I could build this whole site myself. If I had, it never would have turned out so true to the ideas in my head. For that, I thank this team.</p>
+        
+        <h3></h3>
+        <h2><a href='http://thedailyportal.com/post/2013/05/07/portal-readings'>Portal readings</a></h2>
+        <p><strong>THERE'S A CONSTELLATION</strong> of ideas I've been staring at in wonder as I've assembled The Daily Portal. Eventually, I'll have my own words to describe them. But here at the beginning, I'm mostly using and remixing useful terms I've learned from other people.</p>
+        
+    ]]></content>
+  </entry>
   
 
 </feed>

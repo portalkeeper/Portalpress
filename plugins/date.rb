@@ -60,6 +60,7 @@ module Jekyll
         "title"             => self.data['title'] || self.slug.split('-').select {|w| w.capitalize! || w }.join(' '),
         "url"               => self.url,
         "date"              => self.date,
+        "date_obj"          => datetime(self.date),
         # Monkey patch
         "date_formatted"    => format_date(self.date, date_format),
         "updated_formatted" => self.data.has_key?('updated') ? format_date(self.data['updated'], date_format) : nil,

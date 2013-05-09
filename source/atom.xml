@@ -4,16 +4,31 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[{{ site.title }}]]></title>
-  <link href="{{ site.url }}/atom.xml" rel="self"/>
-  <link href="{{ site.url }}/"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/</id>
+  <title><![CDATA[The Daily Portal]]></title>
+  <link href="http://thedailyportal.com/atom.xml" rel="self"/>
+  <link href="http://thedailyportal.com/"/>
+  <updated>2013-05-08T10:29:52-07:00</updated>
+  <id>http://thedailyportal.com/</id>
   <author>
-    <name><![CDATA[{{ site.author | strip_html }}]]></name>
-    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
+    <name><![CDATA[{{ site.author }}]]></name>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
-  {% assign current_issue = page.issue %}
+  {% for index_issue in site.posts_by_issue %}
+  {% assign index = index_issue[0] %}
+  {% assign issue = index_issue[1] %}
+  <entry>
+    <title type="html"><![CDATA[{{  issue[0].title | cdata_escape }}]]></title>
+    <link href="{{ site.url }}/issue/{{ index }}/"/>
+    <updated>{{ issue[0].date }}</updated>
+    <id>{{ site.url }}}/issue/{{ index }}/</id>
+    <content type="html"><![CDATA[
+        {% for p in issue %}
+        <h3>{{date_formatted}}</h3>
+        <h2><a href='{{ site.url }}{{ p.url | expand_urls: site.url }}'>{{ p.title }}</a></h2>
+        <p>{{ p.story_intro | expand_urls: site.url | cdata_escape }}</p>
+        {% endfor %}
+    ]]></content>
+  </entry>
+  {% endfor %}
 
 </feed>
