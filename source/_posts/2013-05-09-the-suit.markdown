@@ -41,7 +41,7 @@ Finally, one of the humans left the terminal to go try another computer in a bac
 
 As I waited, I tuned into the hopeless music, which I am unable to avoid doing in situations like this. It was pounding mid-tempo pop music, its future-schlock lyrics sung by a software-enhanced female human. "Then  comes the solar flare. Something something find me there." It then broke down into a bit of light dubstep, as one does. Google has produced ["Suspension" by Lights](http://www.azlyrics.com/lyrics/lights/suspension.html) as the culprit. Here. Enjoy.
 
-<p><center><iframe width="560" height="315" src="http://www.youtube.com/embed/AP6FMXXC3ls" frameborder="0" allowfullscreen></iframe></center></p>
+<p><center><iframe width="100%" src="http://www.youtube.com/embed/AP6FMXXC3ls" frameborder="0" allowfullscreen></iframe></center></p>
 
 "I found it! I think." Jay returned triumphantly. The color name didn't match — it's just called "silver gray" now — but the number did. The numbers in the computer are the source of truth.
 
