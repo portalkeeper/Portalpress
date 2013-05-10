@@ -81,14 +81,15 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "sub_title: "
+    post.puts "sub_title: \"\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "issues: []"
     post.puts "order: "
     post.puts "author: \"Jon Mitchell\""
+    post.puts "image :"
     post.puts "post_type: text"
     post.puts "meta_description: "
-    post.puts "story_intro: "
+    post.puts "story_intro: \"\""
     post.puts "---"
   end
 end
@@ -149,7 +150,7 @@ task :new_issue, :number do |t, args|
     page.puts "issue: #{issue_number}"
     page.puts "image: "
     page.puts "title: \"Issue XX: \""
-    page.puts "meta_description: "
+    page.puts "meta_description: \"\""
     page.puts "---"
   end
 end
