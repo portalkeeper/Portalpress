@@ -886,6 +886,18 @@ body {
   .social-bar { visibility: hidden; }
   #blog-archives center { text-align: left; }
   .number-links__current { padding: 0 10px; font-size: 0.8em; }
+  .contact-button table p {
+    font-size: 24px;
+  }
+  .contact-button td.icon {
+    font-size: 44px;
+  }
+  .story-content p {
+    font-size: 0.85em;
+    margin: 0 10px 25px;
+  }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -927,8 +939,8 @@ body {
   }
 
   .story-content p {
-    font-size: 90%;
-    margin: 0 10px 30px;
+    font-size: 0.8em;
+    margin: 0 10px 20px;
   }
 
 
@@ -940,6 +952,13 @@ body {
       right: 0;
       left: 0;
       padding: 23px 23px 23px 80px;
+  }
+
+  .contact-button table p {
+    font-size: 16px;
+  }
+  .contact-button td.icon {
+    font-size: 32px;
   }
 
 }
