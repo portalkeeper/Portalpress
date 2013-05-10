@@ -112,7 +112,7 @@ body {
   font-size: 20px;
 }
 .social-bar__adn {
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-weight: 700;
   font-size: 36px;
 }
@@ -257,7 +257,7 @@ body {
 
 .site-nav a { 
   color: #4F3269;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 32px;
   font-weight: 700;
   @include transition-property(color);
@@ -352,7 +352,7 @@ body {
   padding: 105px 0;
   font-size: 28px;
   p {
-    margin: 0 80px 65px;
+    margin: 0 80px 55px;
   }
   div { margin-bottom: 65px; }
   a {
@@ -382,7 +382,7 @@ body {
   }
 }
 .story-content__img-title {
-  font-family: OpenSans, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #959595;
   text-align: right;
@@ -409,7 +409,7 @@ body {
   border-bottom: 1px solid rgba(#4D7986, 0.3);
 }
 .back-home a {
-  font-family: OpenSans, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 800;
 }
@@ -740,7 +740,7 @@ body {
 }
 
 .season-calendar thead {
-  font-family: OpenSans, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   color: #969696;
