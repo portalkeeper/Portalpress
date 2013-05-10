@@ -652,6 +652,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .story-content {
+    padding: 35px 0;
+  }
+  .story-content p {
+    font-size: 0.85em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
   .social-bar-simple {
     display: block;
     li {
@@ -876,9 +884,12 @@ body {
   .story-about { padding-left: 80px; font-size: 20px; }
   .back-home a { font-size: 23px; }
   .social-bar { visibility: hidden; }
+  #blog-archives center { text-align: left; }
+  .number-links__current { padding: 0 10px; font-size: 0.8em; }
 }
 
 @media screen and (max-width: 480px) {
+  #blog-archives center { text-align: left; }
   .issue-cover__title {
     background-color: #4F3269;
   }
