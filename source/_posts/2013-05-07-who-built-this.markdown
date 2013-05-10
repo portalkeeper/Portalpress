@@ -10,7 +10,6 @@ image: /images/1/amethystportal.jpg
 post_type: text
 story_intro: "<strong>I ONCE THOUGHT</strong> I could build this whole site myself. If I had, it never would have turned out so true to the ideas in my head. For that, I thank this team."
 ---
-<a name="alex"></a>
 <div>
     <img src='/images/1/alex.jpg' alt='Alex Kessinger'>
 </div>
@@ -23,7 +22,6 @@ Alex is a developer at [App.net](http://join.app.net). He blogs about code at [a
 
 <p><center><a href="https://app.net/voidfiles">Follow @voidfiles on App.net</a></center></p>
 
-<a name="grayson"></a>
 <div>
     <img src='/images/1/grayson.jpg' alt='Grayson Stebbins'>
 </div>
@@ -39,7 +37,6 @@ Grayson is now designing virtual worlds at [High Fidelity](http://highfidelity.i
 
 <p><center><a href="https://app.net/problem">Follow @problem on App.net</a></center></p>
 
-<a name="dima"></a>
 <div>
     <img src='/images/1/dima.jpg' alt='Dmitry Belitsky'>
 </div>
@@ -53,7 +50,6 @@ Dmitry's portfolio, photography, and blog are at [belitsky.info](http://belitsky
 
 <p><center><a href="https://app.net/dimab">Follow @dimab on App.net</a></center></p>
 
-<a name="harlan"></a>
 <div>
     <img src='/images/1/harlan.jpg' alt='Harlan Emil Gruber'>
     <p class="story-content__img-title">Photo by <a href="http://jasminzorlu.blogspot.com/2012/02/imf-intermission-sage-advice-from.html">Jasmin Zorlu</a></p>
@@ -70,7 +66,6 @@ You can check out Harlan's portals and subscribe to his newsletter on [transport
 
 <p><center><a href="https://www.facebook.com/pages/Portal-Collective/219868422852">Follow Portal Collective on Facebook</a></center></p>
 
-<a name="jon"></a>
 <div>
     <img src='/images/1/jon_portalkeeper.jpg' alt='Jon Mitchell'>
 </div>
