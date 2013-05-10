@@ -195,14 +195,10 @@ body {
   width: 100%; 
   height: 100%;
   padding: 23px;
- }
-.cover-article a { 
-  background: rgba($primary-color, 0.7);
   @include transition-property(background-color);
   @include transition-duration(0.5s);
 }
 .cover-article a:hover { 
-  background: rgba($primary-color, 0.5);
   @include box-shadow(rgba(black, 0.15) 0 0 10px 10px inset); 
 }
 .about-tdd {
