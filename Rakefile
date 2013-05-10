@@ -135,7 +135,7 @@ end
 desc "Create a new issue in source"
 task :new_issue, :number do |t, args|
   issue_number = args.number
-  page_dir = "#{source_dir}/issues/#{issue_number}"
+  page_dir = "#{source_dir}/issue/#{issue_number}"
   mkdir_p page_dir
   file = "#{page_dir}/index.markdown"
   if File.exist?(file)
