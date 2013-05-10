@@ -13,14 +13,14 @@ layout: nil
     <name><![CDATA[{{ site.author }}]]></name>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
-  {% for index_issue in site.posts_by_issue %}
+  {% for index_issue in site.posts_by_issue reversed %}
   {% assign index = index_issue[0] %}
   {% assign issue = index_issue[1] %}
   <entry>
-    <title type="html"><![CDATA[{{  issue[0].title | cdata_escape }}]]></title>
+    <title type="html"><![CDATA[Issue {{ index }}: {{  issue[0].title | cdata_escape }}]]></title>
     <link href="{{ site.url }}/issue/{{ index }}/"/>
     <updated>{{ issue[0].date }}</updated>
-    <id>{{ site.url }}}/issue/{{ index }}/</id>
+    <id>{{ site.url }}/issue/{{ index }}/</id>
     <content type="html"><![CDATA[
         {% for p in issue %}
         <h3>{{date_formatted}}</h3>
