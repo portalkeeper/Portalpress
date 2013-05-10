@@ -9,7 +9,7 @@ author: "Jon Mitchell"
 image : /img/about-turquoise.jpg
 post_type: text
 meta_description: 
-story_intro: "I'm going off the grid tomorrow for a little party. Actually, a pretty big party."
+story_intro: "<strong>I'M GOING OFF</strong> the grid tomorrow for a little party. Actually, a pretty big party."
 ---
 My friends are throwing it, and I'm helping out in a few ways. I don't want to talk too much about it, but I'll say this: It's shaping up to be pretty aesthetically significant.
 
