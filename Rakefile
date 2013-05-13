@@ -86,7 +86,7 @@ task :new_post, :title do |t, args|
     post.puts "issues: []"
     post.puts "order: "
     post.puts "author: \"Jon Mitchell\""
-    post.puts "image :"
+    post.puts "image: "
     post.puts "post_type: text"
     post.puts "meta_description: "
     post.puts "story_intro: \"\""
