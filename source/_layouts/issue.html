@@ -42,7 +42,7 @@
             {% assign icon_class = 'icon-picture' %}
             {% assign background_image = post.image %}
         {% endif %}
-        <div class="cover-article {% if post.image %}has-thumbnail-cover-article{% endif %} {% cycle 'short-cover-article c1 yui3-u-5-12 m-yui3-u-1', 'long-cover-article c2 yui3-u-7-12 m-yui3-u-1', 'long-cover-article m-yui3-u-1 c3 yui3-u-7-12', 'short-cover-article c4 yui3-u-5-12 m-yui3-u-1' %}" {% if background_image %}style='background-image: url({{post.image}}); background-repeate: no-repeat; background-positon: left top;'{% endif %}>
+        <div class="cover-article {% if post.image %}has-thumbnail-cover-article{% endif %} {% cycle 'short-cover-article c2 yui3-u-5-12 m-yui3-u-1', 'long-cover-article c1 yui3-u-7-12 m-yui3-u-1', 'long-cover-article m-yui3-u-1 c3 yui3-u-7-12', 'short-cover-article c4 yui3-u-5-12 m-yui3-u-1' %}" {% if background_image %}style='background-image: url({{post.image}}); background-repeate: no-repeat; background-positon: left top;'{% endif %}>
           <a href="{{ post.url }}">
             <h2>
                 {% if icon_class != '' %}
