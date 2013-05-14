@@ -38,10 +38,10 @@ pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
-titlecase: True       # Converts page and post titles to titlecase
+titlecase: false       # Converts page and post titles to titlecase
 # current_issue: 1
 
-current_issue: 3
+current_issue: 4
 
 jekyll_sort:
   - src: posts
