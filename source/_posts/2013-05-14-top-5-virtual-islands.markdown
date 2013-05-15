@@ -32,7 +32,7 @@ This island looks like a fun place on the surface, but there was something sinis
     <img src='/images/4/koholint.jpg' alt='Koholint Island'>
 </div>
 
-Koholint Island is vast, populous, and full of conflict. You meet so many people as you navigate it searching for the musical instruments to wake the Wind Fish. Some of them help you. Some of them try to hurt you. Some of them make you fall in love. You go from the shore to the forest to the swamp to the mountains to the desert, all in the name of love and music. And when you wake the Wind Fish, the dream is over.
+Koholint Island, the setting of Legend of Zelda: Link's Awakening, is vast, populous, and full of conflict. You meet so many people as you navigate it searching for the musical instruments to wake the Wind Fish. Some of them help you. Some of them try to hurt you. Some of them make you fall in love. You go from the shore to the forest to the swamp to the mountains to the desert, all in the name of love and music. And when you wake the Wind Fish, the dream is over.
 
 <center><h2>2. Myst</h2></center>
 
