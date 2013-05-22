@@ -11,7 +11,7 @@ post_type: text
 meta_description: 
 story_intro: "<strong>AT THE LOBBY</strong> bar, after the wedding party and the unruly bus ride back from it, I had a pivotal conversation with a childhood friend, the documentarian <a href='http://dschwaz.com/'>Daniel Schwartz</a>, whose work I expect to continue admiring for many years."
 ---
-He challenged me to describe The Daily Portal's project, and he challenged me hard. [His work](http://dschwaz.com/) explores the influence of urban places on groups of people. He and [Urban-Think Tank](http://www.u-tt.com/) — the Zurich-based organization where he works — use media and design to impress upon all of us the importance of urban forces, which disproportionatly affect less powerful people. What do I do?
+He challenged me to describe The Daily Portal's project, and he challenged me hard. [His work](http://dschwaz.com/) explores the influence of urban places on groups of people. He and [Urban-Think Tank](http://www.u-tt.com/) — the Zurich-based organization where he works — use media and design to impress upon all of us the importance of urban forces, which disproportionately affect less powerful people. What do I do?
 
 Good question, Schwaz.
 
@@ -28,7 +28,7 @@ Guiding the design of our habitats is surely one way writing about the future ca
 
 But at The Daily Portal, I am writing about the other way. I am writing about our *internal, individual* environment. I am writing about *what it's like* to be us. I don't think the balance between nature and design is much different between the world around us and our own minds. We need just as much love and care for our own psychology as we do for our ecology.
 
-As the texts in my collection of [introductory portal readings](http://thedailyportal.com/post/2013/05/07/portal-readings/) explain, the distinction between psychology and ecology is, at most, just one of perspective. They both, together, constitue our environment.
+As the texts in my collection of [introductory portal readings](http://thedailyportal.com/post/2013/05/07/portal-readings/) explain, the distinction between psychology and ecology is, at most, just one of perspective. They both, together, constitute our environment.
 
 I will keep reading and digesting what people write, say, and film about our external environment, so I can stay informed about the world around me. I will write about what it's like to be there from as many perspectives as I possibly can.
 
