@@ -9,7 +9,7 @@ author: "Jon Mitchell"
 image: /images/6/finny.jpg
 post_type: text
 meta_description: 
-story_intro: "<strong>THIS INTERVIEW WITH</strong> <a href='http://ellipticallydirect.com/'>Finny</a>, an artist, writer, and game-maker I met through the Internet, is about gender. I wanted to ask Finny about gender after reading <a href='http://ellipticallydirect.com/?p=581'>this essay</a>. It is hard to think about. But try it. Remember, it's all a game. Don't forget, it's all real."
+story_intro: "<strong>THIS INTERVIEW WITH</strong> <a href='http://ellipticallydirect.com/'>Finny</a>, an artist, writer, and game-maker I met through the Internet, is about gender. I wanted to ask Finny about gender after reading <a href='http://ellipticallydirect.com/?p=581'>this essay</a>."
 ---
 ***The Daily Portal:** Where do you think gender and other identity roles come from? What's the balance of innate feeling and social/environmental factors that gives rise to such identities?*
 
