@@ -22,7 +22,7 @@ footer: false
       <div id="blog-archives">
         <center><h1>First preseason</h1>
         <a href="/post/2013/05/07/about-the-preseason/"><em>(about the preseason)</em></a></center>
-        {% for page in site.pages reverse %}
+        {% for page in site.pages reversed %}
           {% if page.layout == 'issue' and page.title %}
           {% capture this_month %}{{ page.date | date: "%b" }}{% endcapture %}
           {% unless month == this_month %}
