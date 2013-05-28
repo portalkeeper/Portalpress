@@ -19,15 +19,15 @@ Also, in [my essay, gender and brilliance](http://ellipticallydirect.com/?p=581)
 
 I tend to think about patterns that fit behind phenomena, not roles per se. I call these patterns "maleness" and "femaleness" — ways of being that any person can experience regardless of their gender, fleetingly or for more sustained periods of time. I explain what these patterns look like in my essay, but to sum up:
 
-• the foundation of maleness is the assumption: "i am and should be." maleness is like confidence, or entitlement.
+* the foundation of maleness is the assumption: "i am and should be." maleness is like confidence, or entitlement.
 
-• maleness distilled exists whenever (since it doesn't exist all the time) one knows himself/herself to be a person.
+* maleness distilled exists whenever (since it doesn't exist all the time) one knows himself/herself to be a person.
 
-• maleness enables "the explicit." **it is also a culture, a culture of the illuminated, the visible.** maleness manifests in "seeing," "naming" and "doing," as these words are commonly understood. it is the means by which anything is done — the means by which a thought is thought, a piece is crafted, a scene is surveyed. it is language. it is whatever is acknowledged as common currency amongst human beings. maleness asks: "so what are you saying?" or "so what do you do with this?"
+* maleness enables "the explicit." **it is also a culture, a culture of the illuminated, the visible.** maleness manifests in "seeing," "naming" and "doing," as these words are commonly understood. it is the means by which anything is done — the means by which a thought is thought, a piece is crafted, a scene is surveyed. it is language. it is whatever is acknowledged as common currency amongst human beings. maleness asks: "so what are you saying?" or "so what do you do with this?"
 
-• femaleness is the reason for the doing. femaleness is reality. femaleness is anything that must be believed in **before** it is seen. it cannot and will not speak. it learns and speaks of itself only through maleness. it is the expanse of infinite possibility. it has no nature.
+* femaleness is the reason for the doing. femaleness is reality. femaleness is anything that must be believed in **before** it is seen. it cannot and will not speak. it learns and speaks of itself only through maleness. it is the expanse of infinite possibility. it has no nature.
 
-• the heart of female thinking is existing for another.
+* the heart of female thinking is existing for another.
 
 First, I am describing "maleness" and "femaleness" from a white, middle-class, perspective. I am a white cis women who grew up in a middle-class family. There are many different femininities and masculinities out there, and frankly, I've wondered why I'm even writing here because my voice is supported by [kyriarchy](http://en.wikipedia.org/wiki/Kyriarchy). When I consider it though, I feel like my experience can help others who've struggled with self-esteem for the same reasons that I have.
 
@@ -41,9 +41,9 @@ It is obviously impossible to put all aspects of femaleness into words, but, in 
 
 Why do I consider this kind of thinking to be "female?" I will explain the nature of my thinking in greater depth later, however, I will say now that I call it "female" for two reasons:
 
-1․ It is anti-hegemonic, seemingly the antithesis of "logic" (though I do not believe it to be illogical); in other words, it is one "not male."
+1. It is anti-hegemonic, seemingly the antithesis of "logic" (though I do not believe it to be illogical); in other words, it is one "not male."
 
-2․ It fits with what I understand the cultural construction of femaleness to be; this kind of thinking would be, to some, "mysterious," "opaque," "intuitive," and "emotional," though really, these assessments are from the male perspective and rather surface.
+2. It fits with what I understand the cultural construction of femaleness to be; this kind of thinking would be, to some, "mysterious," "opaque," "intuitive," and "emotional," though really, these assessments are from the male perspective and rather surface.
 
 Again, this thinking is neither innate nor separate from culture.
 
