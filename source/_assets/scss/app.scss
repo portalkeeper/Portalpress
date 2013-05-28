@@ -53,6 +53,10 @@
 @import "respond_to";
 @import "yui_grids_issues";
 
+@mixin translucent-background($color: $white, $alpha: 1) {
+  background-color: hsla(hue($color), saturation($color), lightness($color), $alpha);
+}
+
 .testing .test {
   border: 1px solid #000;
 }
@@ -190,14 +194,28 @@ body {
   &.c6 { background-color: #7E51A7; }
 }
 
-.cover-article a { 
+.cover-article a {
   display: block;
-  width: 100%; 
+  width: 100%;
   height: 100%;
   padding: 23px;
+}
+
+@mixin cover-article-background($color) {
+  @include translucent-background($color, .9);
   @include transition-property(background-color);
   @include transition-duration(0.5s);
 }
+
+.cover-article {
+  &.c1 a { @include cover-article-background(#4F3269); }
+  &.c2 a { @include cover-article-background(#312042); }
+  &.c3 a { @include cover-article-background(#452C5C); }
+  &.c4 a { @include cover-article-background(rgba(#4F3269, 0.9)); }
+  &.c5 a { @include cover-article-background(#7B458D); }
+  &.c6 a { @include cover-article-background(#7E51A7); }
+}
+
 .cover-article a:hover { 
   @include box-shadow(rgba(black, 0.15) 0 0 10px 10px inset); 
 }
