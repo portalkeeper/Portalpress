@@ -348,8 +348,11 @@ body {
   position: relative;
   padding: 105px 0;
   font-size: 28px;
-  p {
+  p, ul, ol {
     margin: 0 80px 55px;
+  }
+  ul, ol {
+    list-style: inside;
   }
   div { margin-bottom: 65px; }
   a {
