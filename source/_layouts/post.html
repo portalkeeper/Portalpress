@@ -5,7 +5,7 @@
     <div class="story-cover">
       <img src="{{ page.image }}" alt="{{ page.title }}" width='800px' height='480px'>
       <div class="story-cover__headline">
-        <a href="/" class="logo-back-to-home"></a>
+        <a href="/issue/{{ page.issues[0] }}/" class="logo-back-to-home"></a>
         <h1><a href="/issue/{{ page.issues[0] }}/">The Daily Portal</a></h1>
         <h2>{{ page.title }}</h2>
     </div></div>
@@ -17,7 +17,7 @@
       <p class="story-intro">{{ page.story_intro }}</p>
       {{ content | expand_urls: root_url }}
       <p class="by-line">- {{ page.author }}</p>
-      <a class="logo-back-to-home" href="/"></a>
+      <a class="logo-back-to-home" href="/issue/{{ page.issues[0] }}/"></a>
     </div>
   </div>
 
