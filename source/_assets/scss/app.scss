@@ -322,7 +322,7 @@ body {
 }
 
 .story-cover__headline {
-  background: rgba(#4F3269, 0.7) url("/img/tdd-header-logo.png") no-repeat 80px center;
+  background: rgba(#4F3269, 0.7) url("/img/tdd-header-logo.png") no-repeat 80px 28px;
   background-size: 72px 72px;
   position: absolute;
   bottom: 0;
@@ -345,6 +345,7 @@ body {
 .by-line { font-style: italic; }
 
 .story-content {
+  position: relative;
   padding: 105px 0;
   font-size: 28px;
   p {
@@ -499,6 +500,23 @@ body {
   background-size: 72px 72px;
 }
 
+.logo-back-to-home {
+  width: 100px;
+  display: block;
+  position: absolute;
+  height: 90px;
+}
+
+.story-cover__headline .logo-back-to-home {
+  left: 74px;
+  top: 28px;
+}
+
+.story-content .logo-back-to-home {
+  height: 90px;
+  left: 44%;
+  bottom: 80px;
+}
 @media screen and (min-width: 768px) {
   .diamond .social-bar { position: relative; overflow: visible; }
 
@@ -717,7 +735,7 @@ body {
 .main-logo.main-logo-color-dark {
   background: transparent url("/img/main-logo-color-dark.png") no-repeat 23px center;
   background-size: 72px 72px;
-  a { color: #395D73; }
+  h1 { color: #395D73; }
 }
 
 .numbers-box.numbers-box-color-light {
@@ -946,7 +964,7 @@ body {
 
 
   .story-cover__headline {
-      background: rgba(79, 50, 105, 0.7) url("/img/tdd-header-logo.png") no-repeat 5px center;
+      background: rgba(79, 50, 105, 0.7) url("/img/tdd-header-logo.png") no-repeat 5px 28px;
       background-size: 60px 60px;
       position: absolute;
       bottom: 0;
