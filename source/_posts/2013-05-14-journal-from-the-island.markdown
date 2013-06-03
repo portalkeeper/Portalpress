@@ -7,7 +7,7 @@ issues: [4]
 order: 2
 author: "Jon Mitchell"
 image: /images/4/journal.png
-post_type: post
+post_type: picture
 meta_description: 
 story_intro: "<strong>IT TOOK ME</strong> a day and a night to realize I should be taking notes. Here's what stood out about my first visit to Proteus. Some might consider this a spoiler, so maybe you should <a href='http://www.visitproteus.com'>visit Proteus</a> first."
 ---
