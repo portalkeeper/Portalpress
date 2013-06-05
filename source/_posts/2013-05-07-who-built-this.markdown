@@ -62,9 +62,9 @@ Dmitry's portfolio, photography, and blog are at [belitsky.info](http://belitsky
 <center><h2><a href="http://www.transportals.org/">Harlan Emil Gruber</a> ๛</h2>
 <h3>portalmaker</h3></center><br />
 
-Harlan is the reason The Daily Portal exists. He builds the [resonating portal sculptures](http://www.transportals.org/) you've seen around the site, and he brings them to [Burning Man](http://burningman.com) and other festivals. Harlan calls his portals "evolutionary interfaces." They're contained spaces, vibrating with a low tone, designed to bring people in tune with each other.
+Harlan is [the reason The Daily Portal exists](/post/2013/05/13/portalmaker/). He builds the [resonating portal sculptures](http://www.transportals.org/) you've seen around the site, and he brings them to [Burning Man](http://burningman.com) and other festivals. Harlan calls his portals "evolutionary interfaces." They're contained spaces, vibrating with a low tone, designed to bring people in tune with each other.
 
-I had a [series](http://everythingisablaze.com/blog/the-american-dream) of [transformative](http://blog.burningman.com/2012/11/tales-from-the-playa/astronauts/) experiences in his portals over the years, but in 2012, I finally got to [meet him there](http://blog.burningman.com/2012/09/tales-from-the-playa/keeping-the-portal/). We talked about how his art is a platform for other people to be creative, and that blew my mind. I didn't know what I had learned until months later, when The Daily Portal was born.
+I had a [series](/post/2013/05/13/2008-the-american-dream) of [transformative](/post/2013/05/13/2011-astronauts) experiences in his portals over the years, but in 2012, I finally got to [meet him there](/post/2013/05/13/2012-keeping-the-portal). We talked about how his art is a platform for other people to be creative, and that blew my mind. I didn't know what I had learned until months later, when The Daily Portal was born.
 
 You can check out Harlan's portals and subscribe to his newsletter on [transportals.org](http://www.transportals.org/).
 
