@@ -41,4 +41,4 @@ For that.</p></center>
 
 <hr />
 
-*from [The Gift](http://books.google.com/books/about/The_Gift.html?id=_cdWZkYE_ZQC), translations of Hafiz by Daniel Ladinsky, with modifications by me. I took out the air quotes around love, deleted the word "literally," which is the worst poetry word available in English, and fixed punctuation marks.*
+*from [The Gift](http://books.google.com/books/about/The_Gift.html?id=_cdWZkYE_ZQC), translations of Hafiz by Daniel Ladinsky, with modifications by me. I took out the air quotes around love, deleted the word “literally,” which is the worst poetry word available in English, and fixed punctuation marks.*

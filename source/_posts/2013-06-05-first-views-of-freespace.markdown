@@ -28,7 +28,7 @@ story_intro: "<strong>I CAPTURED JUST</strong> a few glimpses of the early stage
 
 <div>
     <img src='/images/9/alcohol.jpg'>
-    <p class="story-content__img-title">[freespace has a no-alcohol policy</p>
+    <p class="story-content__img-title">[freespace] has a no-alcohol policy</p>
 </div>
 
 <div>

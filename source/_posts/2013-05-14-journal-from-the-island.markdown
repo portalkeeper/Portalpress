@@ -9,7 +9,7 @@ author: "Jon Mitchell"
 image: /images/4/journal.png
 post_type: picture
 meta_description: 
-story_intro: "<strong>IT TOOK ME</strong> a day and a night to realize I should be taking notes. Here's what stood out about my first visit to Proteus. Some might consider this a spoiler, so maybe you should <a href='http://www.visitproteus.com'>visit Proteus</a> first."
+story_intro: "<strong>IT TOOK ME</strong> a day and a night to realize I should be taking notes. Here’s what stood out about my first visit to Proteus. Some might consider this a spoiler, so maybe you should <a href='http://www.visitproteus.com'>visit Proteus</a> first."
 ---
 <div>
     <img src='/images/4/octopi.png' alt='Octopi'>
@@ -69,4 +69,4 @@ It’s lifting me up!
     <img src='/images/4/aurora.png' alt='Aurora'>
 </div>
 
-"Each island is unique but familiar."
+“Each island is unique but familiar.”
