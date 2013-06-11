@@ -13,7 +13,7 @@ story_intro: "<strong>I CAPTURED JUST</strong> a few glimpses of the early stage
 ---
 <div>
     <img src='/images/9/hug.jpg'>
-    <p class="story-content__img-title">My host, Kyle, greets Danko downstairs</p>
+    <p class="story-content__img-title">My host, Kyle, greets Grandma Danko downstairs</p>
 </div>
 
 <div>
