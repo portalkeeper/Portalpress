@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Visit Proteus"
-sub_title: "Why we're attracted to islands"
+sub_title: "Why we’re attracted to islands"
 date: 2013-05-14 11:28
 issues: [4]
 order: 1

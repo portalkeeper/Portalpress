@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gender and other games"
-sub_title: "It's not about rules. It's about playing."
+sub_title: "It’s not about rules. It’s about playing."
 date: 2013-05-22 11:46
 issues: [6]
 order: 1

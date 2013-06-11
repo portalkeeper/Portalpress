@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Burning Man's dilemma"
-sub_title: "A festival's fight to become a culture"
+sub_title: "A festival’s fight to become a culture"
 date: 2013-06-05 10:50
 issues: [9]
 order: 2

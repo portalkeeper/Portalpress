@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to the portal"
-sub_title: "We've got a long night of portalkeeping ahead of us."
+sub_title: "We’ve got a long night of portalkeeping ahead of us."
 date: 2013-05-07 20:22
 issues: [1]
 order: 1
