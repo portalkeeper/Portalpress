@@ -16,7 +16,7 @@ My friend Kendra co-founded a local currency here in the San Francisco Bay Area 
 Kendra and her co-founder, Dr. Chong Kee Tan, screened a documentary in [freespace] last week to teach us all about the true nature of money and why they think local currencies are better for us. Here’s the film in full. Below, I’ll offer some prompts that came to me as we watched and discussed it.
 
 <div class="flex-video">
-  <iframe width="100%" src="http://www.youtube.com/watch?v=f0xRkaJCs5g" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" src="http://www.youtube.com/embed/f0xRkaJCs5g" frameborder="0" allowfullscreen></iframe>
 </div>
 
 - Do we treat money differently because of the mystical importance attached to it through the symbolism on the coins, bills, and banks themselves?

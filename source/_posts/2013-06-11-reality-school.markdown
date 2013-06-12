@@ -21,7 +21,7 @@ So far, I’d say that about describes what I’ve learned from the millennial m
 
 Clearly, we haven’t passed the test yet. But lots of people laugh at our jokes.
 
-It’s with this sense of humor that I have approached <a href='http://freespace.io'>[freespace]</a>, the month-long experiment in Millennial world-saver values that has plopped down south of Market in San Francisco this June. I wrote about my first impressions in [Issue 9](http://thedailyportal.com/issue/9), and now I’ve had about a week to develop an impression.
+It’s with this sense of humor that I have approached <a href='http://freespace.io'>[freespace]</a>, the month-long experiment in Millennial world-saver values that has plopped down south of Market in San Francisco this June. I wrote about my first impressions in [Issue 9](http://thedailyportal.com/issue/9), and now I’ve had about a week to get to know it better.
 
 Exactly how this 14,000-foot piece of prime SF real estate came to be rented to these misfits for $1 this month is a puzzle I’m still trying to piece together. I’ve heard it told a few different ways so far, and I’m not yet ready to report it conclusively. But here’s what I know.
 
