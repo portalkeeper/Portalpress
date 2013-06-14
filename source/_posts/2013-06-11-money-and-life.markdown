@@ -7,7 +7,7 @@ issues: [10]
 order: 2
 author: "Jon Mitchell"
 image: /images/10/money.jpg
-post_type: text
+post_type: video
 meta_description: 
 story_intro: "<strong>[FREESPACE] ITSELF IS</strong> still <a href='/post/2013/06/11/reality-school'>a bit incoherent</a> ideologically. But it makes for a great venue for people who know what they want to say. Plus, [freespace] provides a wacko audience, so it’s friendly to unconventional ideas."
 ---
