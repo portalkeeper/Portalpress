@@ -111,14 +111,9 @@ body {
 .social-bar i {
   margin-top: 10px;
 }
-.social-bar__rss, .social-bar__tw, .social-bar__fb {
+.social-bar__rss, .social-bar__tw, .social-bar__fb, .social-bar__adn {
   font-family: "FontAwesome";
   font-size: 20px;
-}
-.social-bar__adn {
-  font-family: 'Open Sans';
-  font-weight: 700;
-  font-size: 36px;
 }
 
 .issue-cover__headline {
@@ -566,6 +561,7 @@ body {
       display: block;
       margin-top: 25px;
     }
+    i { font-size: 53px; font-weight: 700;}
     span { font-size: 73px; font-weight: 700; padding-left: 10px; }
     &:hover {
       color: #192D40;
@@ -705,10 +701,6 @@ body {
       display: inline-block;
       a {
         font-size: 350%;
-        &.social-bar__adn span {
-          font-size: 160%;
-          font-style: italic;
-        }
       }
     }
   }
