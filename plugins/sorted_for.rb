@@ -4,6 +4,10 @@ module Jekyll
       sorted_collection = collection_to_sort context
       return if sorted_collection.empty?
       sort_attr = @attributes['sort_by']
+      default_value = @attributes['default_value']
+      if default_value then
+        default_value = Integer(default_value)
+      end
       case_sensitive = @attributes['case_sensitive'] == 'true'
       i = sorted_collection.first
 
@@ -11,7 +15,7 @@ module Jekyll
         if i.to_liquid[sort_attr].instance_of? String and not case_sensitive
           sorted_collection.sort_by! { |i| i.to_liquid[sort_attr].downcase }
         else
-          sorted_collection.sort_by! { |i| i.to_liquid[sort_attr] }
+          sorted_collection.sort_by! { |i| i.to_liquid[sort_attr] or default_value }
         end
       else
         if i.instance_of? String and not case_sensitive
