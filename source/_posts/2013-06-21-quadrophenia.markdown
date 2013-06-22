@@ -25,7 +25,7 @@ The standout track for me is “I’m One,” because I’m earnest like that. I
 
 There’s one other moment of the same character later in the record. At the end of “Drowned,” they captured Pete (I think) walking down the street singing the tune to himself. And that does it for me even more than “I’m One” does.
 
-“5:15” is the benchmark of how The Who has evolved. The reference to the 1965 proto-punk club banger “My Generation” in the verse means so much surrounded by this huge band full of horns and keys. When I saw The Who play *Quadrophenia* earlier this year, John Entwistle played a big-screen bass solo on “5:15” from beyond the grave.
+“5:15” is the benchmark of how The Who have evolved. The reference to the 1965 proto-punk club banger “My Generation” in the verse means so much surrounded by this huge band full of horns and keys. When I saw The Who play *Quadrophenia* earlier this year, John Entwistle played a big-screen bass solo on “5:15” from beyond the grave.
 
 Yes, there are lots of ocean and rain sounds on this record. They would be cheesy elsewhere. But you are allowed to do that when the god of thunder plays drums in your band. Keith actually *sings* — or yells, really — on “Bell Boy,” and he is exactly the right being for the job.
 
