@@ -184,7 +184,7 @@ body {
   &.c1 { background-color: #4F3269; }
   &.c2 { background-color: #312042; }
   &.c3 { background-color: #452C5C; }
-  &.c4 { background-color: rgba(#4F3269, 0.9); }
+  &.c4 { background-color: #594571; }
   &.c5 { background-color: #7B458D; }
   &.c6 { background-color: #7E51A7; }
 }
@@ -206,7 +206,7 @@ body {
   &.c1 a { @include cover-article-background(#4F3269); }
   &.c2 a { @include cover-article-background(#312042); }
   &.c3 a { @include cover-article-background(#452C5C); }
-  &.c4 a { @include cover-article-background(rgba(#4F3269, 0.9)); }
+  &.c4 a { @include cover-article-background(#594571); }
   &.c5 a { @include cover-article-background(#7B458D); }
   &.c6 a { @include cover-article-background(#7E51A7); }
 }
