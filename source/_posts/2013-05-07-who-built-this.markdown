@@ -75,7 +75,7 @@ You can check out Harlan’s portals and subscribe to his newsletter on [transpo
     <img src='/images/1/jon_portalkeeper.jpg' alt='Jon Mitchell'>
 </div>
 
-<center><h2><a href="http://everythingisablaze.com">Jon Mitchell</a> ๛</h2>
+<center><h2><a href="http://jonmitchell.net">Jon Mitchell</a> ๛</h2>
 <h3>portalkeeper</h3></center><br />
 
 I’m Jon. My spirit animal is the [octopus](http://en.wikipedia.org/wiki/Octopus). I write and play music. I care about language. I think about the future all the time.
@@ -84,6 +84,6 @@ I’m a Buddhist. I’m from [Atlanta](http://en.wikipedia.org/wiki/Atlanta). I 
 
 I started The Daily Portal because I realized that [I wanted to be a portalkeeper when I grew up](http://blog.burningman.com/2012/09/tales-from-the-playa/keeping-the-portal/). I used to write news about computers and telephones at [ReadWrite(Web)](http://readwrite.com), but the scope was too small. So now I write [cosmos journalism](http://everythingisablaze.com/blog/the-daily-portal) stories about the future we’re making and what it’s doing to us.
 
-My personal site is [Everything is ablaze!](http://everythingisablaze.com). You can find my portfolio and other projects there, as well as [my blog about life](http://everythingisablaze.com/blog) and [my blog about working in web publishing](http://everythingisablaze.com/afterthoughts).
+My personal site is [Everything is ablaze!](http://jonmitchell.net). You can find my portfolio and other projects there, as well as [my blog about life](http://jonmitchell.net/blog) and [my blog about working in web publishing](http://jonmitchell.net/afterthoughts).
 
 <p><center><a href="https://app.net/ablaze">Follow @ablaze on App.net</a></center></p>
