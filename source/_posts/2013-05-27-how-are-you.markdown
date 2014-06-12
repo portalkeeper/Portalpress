@@ -25,7 +25,7 @@ In my world, the portal — as you might have guessed by now — does not refer 
 
 The interface between one person and another is a critical piece of human infrastructure. It enables communication, which enables cooperation, which enables society. Without that connection, what would be human about us? And yet, as far as this English speaker knows, our language doesn’t have a name for it yet. I call it the portal. **The portal is the interface between people.**
 
-How open is your portal? What makes it close up? Do you keep it open for every encounter, or do you close it for some people? When a homeless person asks you for money on the street, how open is your portal? What about when you’re talking to someone attractive at a party, whom you just met? What about when your mother calls? When you’re eating dinner with your partner? When you’re at work, instant-messaging your friend across the country, who is also at work?
+How open is your portal? What makes it close up? Do you keep it open for every encounter, or do you close it for some people? When a homeless person asks you for money on the street, how open is your portal? What about when you’re talking to someone attractive at a party who you just met? What about when your mother calls? When you’re eating dinner with your partner? When you’re at work, instant-messaging your friend across the country, who is also at work?
 
 How open is your portal right now?
 
